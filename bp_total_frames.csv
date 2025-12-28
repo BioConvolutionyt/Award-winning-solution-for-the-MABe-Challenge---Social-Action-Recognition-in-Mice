@@ -1,0 +1,10 @@
+body_parts_tracked,total_frames
+"[""body_center"", ""ear_left"", ""ear_right"", ""headpiece_bottombackleft"", ""headpiece_bottombackright"", ""headpiece_bottomfrontleft"", ""headpiece_bottomfrontright"", ""headpiece_topbackleft"", ""headpiece_topbackright"", ""headpiece_topfrontleft"", ""headpiece_topfrontright"", ""lateral_left"", ""lateral_right"", ""neck"", ""nose"", ""tail_base"", ""tail_midpoint"", ""tail_tip""]",199473
+"[""body_center"", ""ear_left"", ""ear_right"", ""hip_left"", ""hip_right"", ""lateral_left"", ""lateral_right"", ""nose"", ""spine_1"", ""spine_2"", ""tail_base"", ""tail_middle_1"", ""tail_middle_2"", ""tail_tip""]",314341
+"[""body_center"", ""ear_left"", ""ear_right"", ""lateral_left"", ""lateral_right"", ""neck"", ""nose"", ""tail_base"", ""tail_midpoint"", ""tail_tip""]",533747
+"[""body_center"", ""ear_left"", ""ear_right"", ""lateral_left"", ""lateral_right"", ""nose"", ""tail_base"", ""tail_tip""]",1296025
+"[""body_center"", ""ear_left"", ""ear_right"", ""lateral_left"", ""lateral_right"", ""nose"", ""tail_base""]",1007070
+"[""body_center"", ""ear_left"", ""ear_right"", ""nose"", ""tail_base""]",5106453
+"[""ear_left"", ""ear_right"", ""head"", ""tail_base""]",450756
+"[""ear_left"", ""ear_right"", ""hip_left"", ""hip_right"", ""neck"", ""nose"", ""tail_base""]",11554095
+"[""ear_left"", ""ear_right"", ""nose"", ""tail_base"", ""tail_tip""]",887304
