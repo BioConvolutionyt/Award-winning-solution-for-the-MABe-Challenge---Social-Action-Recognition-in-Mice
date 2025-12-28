@@ -86,13 +86,13 @@
 
 ```mermaid
 flowchart TD
-  rawData[RawData(train_tracking/train_annotation/train.csv)] --> oof[OOF_probability_py]
-  oof --> oofFiles[oof_proba_section_switch_action_parquet]
-  oofFiles --> opt[Opt_merge_parameters_py]
-  opt --> params[merge_parameter_section_switch_action_json]
-  params --> infer[MABepp_Refined_LGB_XGB_Catboost_py]
+  rawData["RawData(train_tracking/train_annotation/train.csv)"] --> oof["OOF_probability_py"]
+  oof --> oofFiles["oof_proba_section_switch_action_parquet"]
+  oofFiles --> opt["Opt_merge_parameters_py"]
+  opt --> params["merge_parameter_section_switch_action_json"]
+  params --> infer["MABepp_Refined_LGB_XGB_Catboost_py"]
   rawData --> infer
-  infer --> sub[submission_csv]
+  infer --> sub["submission_csv"]
 ```
 
 ### 0) 任务拆解：section / single|pair / action
@@ -272,6 +272,7 @@ GPU 自动检测与配置：
 - `catboost`
 - `optuna`（用于 TPE 寻优）
 - `polars`（用于评分/后处理部分的数据操作）
+
 
 
 
