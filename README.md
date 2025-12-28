@@ -86,13 +86,13 @@ Overall, this is a pipeline of “use OOF for blending/threshold calibration fir
 
 ```mermaid
 flowchart TD
-  rawData["RawData(train_tracking/train_annotation/train.csv)"] --> oof["OOF_probability_py"]
-  oof --> oofFiles["oof_proba_section_switch_action_parquet"]
-  oofFiles --> opt["Opt_merge_parameters_py"]
-  opt --> params["merge_parameter_section_switch_action_json"]
-  params --> infer["MABepp_Refined_LGB_XGB_Catboost_py"]
+  rawData["RawData<br/>train_tracking/train_annotation/train.csv"] --> oof["OOF_probability.py"]
+  oof --> oofFiles["oof_proba_section<br/>switch_action.parquet"]
+  oofFiles --> opt["Opt_merge_parameters.py"]
+  opt --> params["merge_parameter<br/>section_switch_action.json"]
+  params --> infer["MABe++_Refined<br/>LGB_XGB_Catboost.py"]
   rawData --> infer
-  infer --> sub["submission_csv"]
+  infer --> sub["submission.csv"]
 ```
 
 ### 0) Task decomposition: section / single|pair / action
@@ -272,6 +272,7 @@ Main dependencies:
 - `catboost`
 - `optuna` (for TPE optimization)
 - `polars` (used for scoring / post-processing utilities)
+
 
 
 
